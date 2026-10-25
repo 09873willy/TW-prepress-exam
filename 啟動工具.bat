@@ -1,0 +1,1 @@
+@echo off & chcp 65001 >nul & title Exam App Builder & echo =================================================== & echo    Starting Exam App Builder... & echo =================================================== & "C:\ComfyUI\venv\Scripts\python.exe" "%~dp0Full_Rebuild.py" & echo. & echo Build process finished. & pause
